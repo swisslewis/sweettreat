@@ -1,0 +1,68 @@
+body {
+    background-color: #76D5FF;
+    height: 100vh;
+}
+
+.hero {
+
+    #flavors-icecream {
+        display: flex;
+        justify-content: center;
+        padding: 40px 0px 40px 0px;
+
+        img {
+            padding: 0px 20px;
+        }
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            margin-top: 20px;
+        }
+    }
+
+    .quote-box {
+        display: flex;
+        justify-content: center;
+        padding: 40px 0px;
+    }
+
+    #flavors-donuts #flavors-yoghurt {
+        display: none;
+    }
+
+    #quote-button {
+        background-color: rgb(219, 70, 153);
+        border-radius: 10px;
+        color: white;
+        padding: 5px 10px;
+        font-size: 17px;
+        border: none;
+    }
+
+    input {
+        text-align: center;
+    }
+
+    .quote {
+
+        display: flex;
+        justify-content: center;
+        padding: 30px 0px 30px 0px;
+    
+    #quote-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        background-color: purple;
+        border-radius: 10px;
+    }
+}
+}
